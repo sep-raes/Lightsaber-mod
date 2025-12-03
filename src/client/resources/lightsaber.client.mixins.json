@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "sep.banaanatjuh.lightsaber.mixin.client",
+  "package": "sep.banaanatjuh.lightsaber.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
   ],

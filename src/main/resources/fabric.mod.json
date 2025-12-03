@@ -8,7 +8,7 @@
 		"Banaanatjuh"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
+		"homepage": "localhost",
 		"sources": "https://github.com/sep-raes/Lightsaber-mod"
 	},
 	"license": "MIT",
