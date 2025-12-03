@@ -1,3 +1,11 @@
 {
-    "item.lightsaber.lightsaber_blue": "Blue Lightsaber"
+    "item.lightsaber.lightsaber_blue": "Blue Lightsaber",
+    "item.lightsaber.landerbubu": "Landerbubu",
+
+    "item.lightsaber.purple_crystal": "Purple Crystal",
+    "item.lightsaber.blue_crystal": "Blue Crystal",
+    "item.lightsaber.red_crystal": "Red Crystal",
+    "item.lightsaber.black_crystal": "Black Crystal",
+    "item.lightsaber.white_crystal": "White Crystal"
+
 }
