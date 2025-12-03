@@ -1,0 +1,10 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "lightsaber:item/lightsaber_blue",
+		"fallback": {
+			"type": "model",
+			"model": "item/diamond_sword"
+		}
+	}
+}
