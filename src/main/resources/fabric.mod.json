@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lightsaber",
+	"version": "${version}",
+	"name": "Lightsaber mod",
+	"description": "Lightsaber mod for 1.21.9+ and aims to implement lightsabers into the game lagg-free",
+	"authors": [
+		"Banaanatjuh"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/lightsaber/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "sep.banaanatjuh.lightsaber.LightsaberMod"
+		],
+		"fabric-datagen": [
+          "sep.banaanatjuh.lightsaber.LightsaberModDataGenerator"
+		],
+		"client": [
+			"sep.banaanatjuh.lightsaber.LightsaberModClient"
+		]
+	},
+	"mixins": [
+		"lightsaber.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.9",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

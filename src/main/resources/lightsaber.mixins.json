@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "be.banaanatjuh.lightsaber.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+      "sep.banaanatjuh.lightsaber.mixin.ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
