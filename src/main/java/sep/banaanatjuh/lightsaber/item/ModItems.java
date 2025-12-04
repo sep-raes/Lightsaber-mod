@@ -3,6 +3,7 @@ package sep.banaanatjuh.lightsaber.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.MinecartItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -30,8 +31,8 @@ public class ModItems {
     public static void registerModItems() {
         LightsaberMod.LOGGER.info("Registering all Light sabers");
 
-        LIGHTSABER_BLUE = registerItem("lightsaber_blue", new Item.Settings().maxCount(99));
-        LANDERBUBU = registerItem("landerbubu", new Item.Settings().maxCount(1));
+        LIGHTSABER_BLUE = registerItem("lightsaber_blue", new Item.Settings().maxCount(1));
+        LANDERBUBU = registerItem("landerbubu", new Item.Settings().maxCount(1).rarity(Rarity.RARE));
 
         PURPLE_CRYSTAL = registerItem("purple_crystal", new Item.Settings().maxCount(16).rarity(Rarity.RARE));
         RED_CRYSTAL = registerItem("red_crystal", new Item.Settings().maxCount(16).rarity(Rarity.UNCOMMON));
