@@ -1,9 +1,10 @@
 {
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cross",
 	"textures": {
 		"2": "lightsaber:item/purple_crystal",
-		"particle": "lightsaber:item/purple_crystal"
+		"particle": "block/amethyst_cluster"
 	},
 	"elements": [
 		{

@@ -4,9 +4,8 @@
 	"parent": "lightsaber",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "block/texturered",
-		"particle": "lightsaber:item/lightsaber_blue",
-		"1_0": "lightsaber:item/lightsaber_blue"
+		"0": "lightsaber:item/lightsaber_blue",
+		"particle": "lightsaber:item/lightsaber_blue"
 	},
 	"elements": [
 		{
@@ -33,32 +32,6 @@
 				"west": {"uv": [3, 0, 4, 8.5], "texture": "#0"},
 				"up": {"uv": [7, 3, 6, 2], "texture": "#0"},
 				"down": {"uv": [7, 3, 6, 4], "texture": "#0"}
-			}
-		},
-		{
-			"from": [7, 0, 7],
-			"to": [9, 9, 9],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 0, 7]},
-			"faces": {
-				"north": {"uv": [4, 0, 5, 4.5], "texture": "#1_0"},
-				"east": {"uv": [4, 4.5, 5, 9], "texture": "#1_0"},
-				"south": {"uv": [5, 0, 6, 4.5], "texture": "#1_0"},
-				"west": {"uv": [5, 4.5, 6, 9], "texture": "#1_0"},
-				"up": {"uv": [7, 1, 6, 0], "texture": "#1_0"},
-				"down": {"uv": [7, 1, 6, 2], "texture": "#1_0"}
-			}
-		},
-		{
-			"from": [7, 9, 7],
-			"to": [9, 26, 9],
-			"rotation": {"angle": 0, "axis": "y", "origin": [7, 9, 7]},
-			"faces": {
-				"north": {"uv": [0, 0, 1, 8.5], "texture": "#1_0"},
-				"east": {"uv": [1, 0, 2, 8.5], "texture": "#1_0"},
-				"south": {"uv": [2, 0, 3, 8.5], "texture": "#1_0"},
-				"west": {"uv": [3, 0, 4, 8.5], "texture": "#1_0"},
-				"up": {"uv": [7, 3, 6, 2], "texture": "#1_0"},
-				"down": {"uv": [7, 3, 6, 4], "texture": "#1_0"}
 			}
 		}
 	],
@@ -105,19 +78,6 @@
 			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [0, 1]
-		},
-		{
-			"name": "lightsaber_blue",
-			"origin": [8, 8, 8],
-			"color": 0,
-			"children": [
-				{
-					"name": "group",
-					"origin": [8, 8, 8],
-					"color": 0,
-					"children": [2, 3]
-				}
-			]
 		}
 	]
 }
