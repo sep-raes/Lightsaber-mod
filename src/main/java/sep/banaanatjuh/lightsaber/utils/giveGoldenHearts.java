@@ -17,5 +17,9 @@ public class giveGoldenHearts {
                 false
 
         );
+
+        if (!player.getEntityWorld().isClient()) {
+            player.addStatusEffect(absorptionEffect);
+        }
     }
 }
